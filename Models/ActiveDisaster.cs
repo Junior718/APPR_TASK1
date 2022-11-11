@@ -7,5 +7,13 @@ namespace APPR_TASK1.Models
 {
     public class ActiveDisaster
     {
+
+        public int id { get; set; }
+        public string DisasterType { get; set; }
+
+        public ActiveDisaster()
+        {
+
+        }
     }
 }
