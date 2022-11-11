@@ -19,6 +19,8 @@ namespace APPR_TASK1.Data
         public DbSet<APPR_TASK1.Models.Disaster> Disaster { get; set; }
         public DbSet<APPR_TASK1.Models.Goods> Goods { get; set; }
         public DbSet<APPR_TASK1.Models.Money> Money { get; set; }
+        public DbSet<APPR_TASK1.Models.ActiveDisaster> ActiveDisaster { get; set; }
+        public DbSet<APPR_TASK1.Models.Report> Report { get; set; }
        
     }
 }
